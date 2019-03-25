@@ -4,6 +4,7 @@
       class="text-container"
       content="MAND MOBILE"
       spacing="10vw"
+      opacity='0.7'
     >
       <p class="text">
         每个人都有属于自己的一片森林，也许我们从来不曾去过，但它一直在那里，总会在那里。迷失的人迷失了，相逢的人会再相逢。
@@ -18,7 +19,8 @@
 	</div>
 </template>
 
-<script>import {WaterMark} from 'mand-mobile'
+<script>
+import {WaterMark} from 'mand-mobile'
 
 export default {
   name: 'water-mark-demo',
@@ -26,7 +28,8 @@ export default {
     [WaterMark.name]: WaterMark,
   },
 }
-</script>
+
+</script>
 
 <style lang="stylus">
 .md-example-child-water-mark-0
